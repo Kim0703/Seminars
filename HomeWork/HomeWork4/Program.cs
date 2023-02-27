@@ -14,15 +14,15 @@
 //     return result;
 // }
 
-// void ShowDegree(int result)
-// {
-//     Console.Write(result);
-// }
-
 // Console.WriteLine("Input A");
 // int A = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Input B");
 // int B = Convert.ToInt32(Console.ReadLine());
+
+// void ShowDegree(int result)
+// {
+//     Console.Write($"Degree of a number {A} is {result}.");
+// }
 
 // ShowDegree(DegreeNumber(A, B));
 
@@ -35,6 +35,21 @@
 
 // 9012 -> 12
 
+// int SumDigits(int number)
+// {
+//     int result = 0;
+//     for (int i = 0; number > 0; i++)
+//     {
+//         result += number % 10;
+//         number /= 10;
+//     }
+//     return result;
+// }
+
+// Console.WriteLine("Input number");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine(SumDigits(number));
 
 
 // Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
